@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" version="1.1" viewBox="0 0 800 800">
+  <!-- Generator: Adobe Illustrator 29.5.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 137)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #85828e;
+      }
+
+      .st1 {
+        fill: #eb0037;
+      }
+
+      .st2 {
+        fill: #0b051c;
+      }
+
+      .st3 {
+        fill: #cecdd2;
+      }
+
+      .st4 {
+        fill: #2846be;
+      }
+
+      .st5 {
+        fill: #f3f3f4;
+      }
+
+      .st6 {
+        fill: #545060;
+      }
+    </style>
+  </defs>
+  <g id="Floor">
+    <rect class="st5" x="70" y="170" width="660" height="460" rx="6" ry="6"/>
+  </g>
+  <g id="Showcase">
+    <rect class="st3" x="590.001" y="210" width="100" height="100" rx="1" ry="1"/>
+  </g>
+  <g id="Desk">
+    <rect class="st3" x="95" y="555" width="410" height="50" rx="1" ry="1"/>
+  </g>
+  <g id="Bar_x5F_Stools">
+    <circle class="st3" cx="140.001" cy="520" r="25"/>
+    <circle class="st3" cx="210.001" cy="520" r="25"/>
+    <circle class="st3" cx="280.001" cy="520" r="25"/>
+  </g>
+  <g id="Table_x5F_Chairs">
+    <rect class="st3" x="383.679" y="232.175" width="29.996" height="3" rx="1" ry="1" transform="translate(-48.463 350.35) rotate(-45)"/>
+    <rect class="st3" x="426.875" y="220.142" width="3" height="20" rx="1" ry="1" transform="translate(-37.266 370.316) rotate(-45)"/>
+    <rect class="st3" x="393.642" y="253.375" width="3" height="20" rx="1" ry="1" transform="translate(-70.499 356.551) rotate(-45)"/>
+    <rect class="st3" x="391.759" y="231.756" width="40" height="30" rx="5" ry="5" transform="translate(-53.881 363.429) rotate(-45)"/>
+    <rect class="st3" x="494.051" y="218.679" width="3" height="29.996" rx="1" ry="1" transform="translate(-20.09 418.851) rotate(-45)"/>
+    <rect class="st3" x="489.084" y="261.875" width="20" height="3" rx="1" ry="1" transform="translate(-40.055 430.048) rotate(-45)"/>
+    <rect class="st3" x="455.851" y="228.642" width="20" height="3" rx="1" ry="1" transform="translate(-26.29 396.815) rotate(-45)"/>
+    <rect class="st3" x="467.471" y="226.758" width="30" height="40" rx="5" ry="5" transform="translate(-33.172 413.431) rotate(-45)"/>
+    <rect class="st3" x="397.177" y="315.552" width="3" height="29.996" rx="1" ry="1" transform="translate(-116.964 378.725) rotate(-45)"/>
+    <rect class="st3" x="418.373" y="332.586" width="20" height="3" rx="1" ry="1" transform="translate(-110.767 400.759) rotate(-45)"/>
+    <rect class="st3" x="385.14" y="299.353" width="20" height="3" rx="1" ry="1" transform="translate(-97.001 367.526) rotate(-45)"/>
+    <rect class="st3" x="396.76" y="297.469" width="30" height="40" rx="5" ry="5" transform="translate(-103.883 384.142) rotate(-45)"/>
+    <circle class="st3" cx="447.114" cy="282.112" r="30" transform="translate(-40.577 486.207) rotate(-54.959)"/>
+    <rect class="st3" x="651.544" y="464.043" width="29.996" height="3" rx="1" ry="1" transform="translate(-133.963 607.673) rotate(-45)"/>
+    <rect class="st3" x="635.344" y="459.076" width="3" height="20" rx="1" ry="1" transform="translate(-145.159 587.709) rotate(-45)"/>
+    <rect class="st3" x="668.577" y="425.843" width="3" height="20" rx="1" ry="1" transform="translate(-111.926 601.475) rotate(-45)"/>
+    <rect class="st3" x="633.461" y="437.463" width="40" height="30" rx="5" ry="5" transform="translate(-128.546 594.588) rotate(-45)"/>
+    <rect class="st3" x="568.168" y="450.544" width="3" height="29.996" rx="1" ry="1" transform="translate(-162.335 539.172) rotate(-45)"/>
+    <rect class="st3" x="556.135" y="434.343" width="20" height="3" rx="1" ry="1" transform="translate(-142.37 527.976) rotate(-45)"/>
+    <rect class="st3" x="589.368" y="467.576" width="20" height="3" rx="1" ry="1" transform="translate(-156.136 561.209) rotate(-45)"/>
+    <rect class="st3" x="567.749" y="432.46" width="30" height="40" rx="5" ry="5" transform="translate(-149.254 544.587) rotate(-45)"/>
+    <rect class="st3" x="665.042" y="353.67" width="3" height="29.996" rx="1" ry="1" transform="translate(-65.461 579.299) rotate(-45)"/>
+    <rect class="st3" x="626.846" y="363.632" width="20" height="3" rx="1" ry="1" transform="translate(-71.659 557.266) rotate(-45)"/>
+    <rect class="st3" x="660.079" y="396.865" width="20" height="3" rx="1" ry="1" transform="translate(-85.424 590.499) rotate(-45)"/>
+    <rect class="st3" x="638.46" y="361.749" width="30" height="40" rx="5" ry="5" transform="translate(-78.543 573.876) rotate(-45)"/>
+    <circle class="st3" cx="618.105" cy="417.106" r="30" transform="translate(-74.724 692.823) rotate(-55.713)"/>
+  </g>
+  <g id="Doors">
+    <rect class="st0" x="255.089" y="312.587" width="5" height="90.001" rx="1" ry="1" transform="translate(-177.408 286.885) rotate(-45.001)"/>
+  </g>
+  <g id="Construction">
+    <rect class="st6" x="695.001" y="210" width="10" height="180" rx="1" ry="1"/>
+    <rect class="st6" x="110.001" y="195.001" width="180" height="10" rx="1" ry="1"/>
+    <rect class="st6" x="509.999" y="195.001" width="180" height="10" rx="1" ry="1"/>
+    <rect class="st6" x="310" y="195.001" width="180" height="10" rx="1" ry="1"/>
+    <rect class="st6" x="110" y="395" width="180" height="10" rx="1" ry="1"/>
+    <rect class="st6" x="95.001" y="210" width="10" height="380" rx="1" ry="1"/>
+    <rect class="st6" x="295" y="210" width="10" height="80" rx="1" ry="1"/>
+    <rect class="st6" x="295" y="310" width="10" height="80" rx="1" ry="1"/>
+  </g>
+  <g id="BRANDING">
+    <rect class="st4" x="110.002" y="595.018" width="380" height="10" rx="1" ry="1"/>
+    <path class="st1" d="M704.001,410h-8c-1,0-1.013,1-1.013,1-.538,101.377-82.609,183.45-183.987,183.987,0,0-1,.013-1,1.013v8c0,1,1,.987,1,.987,106.9-.538,193.449-87.087,193.987-193.987,0,0,.013-1-.987-1Z"/>
+  </g>
+  <g id="Pillars">
+    <rect class="st2" x="694.001" y="394" width="12" height="12" rx="1" ry="1"/>
+    <rect class="st2" x="294.001" y="394" width="12" height="12" rx="1" ry="1"/>
+    <rect class="st2" x="94.001" y="594" width="12" height="12" rx="1" ry="1"/>
+    <rect class="st2" x="494.001" y="594" width="12" height="12" rx="1" ry="1"/>
+    <rect class="st2" x="94.001" y="194" width="12" height="12" rx="1" ry="1"/>
+    <rect class="st2" x="294.001" y="194" width="12" height="12" rx="1" ry="1"/>
+    <rect class="st2" x="494.001" y="194" width="12" height="12" rx="1" ry="1"/>
+    <rect class="st2" x="694.001" y="194" width="12" height="12" rx="1" ry="1"/>
+    <rect class="st2" x="294.001" y="294" width="12" height="12" rx="1" ry="1"/>
+  </g>
+</svg>

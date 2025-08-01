@@ -1,0 +1,348 @@
+// src/scss/_variables.scss
+
+@use "sass:map";
+// 0) Initialize utilities map for responsive utility merging
+//    (Bootstrap will pick this up when you import it)
+$utilities: () !default;
+
+// 1) Spacers
+$spacers: (
+  0:    0,
+  4:    4px,
+  8:    8px,
+  12:   12px,
+  16:   16px,
+  20:   20px,
+  24:   24px,
+  30:   30px,
+  32:   32px,
+  36:   36px,
+  40:   40px,
+  48:   48px,
+  64:   64px,
+  128:  128px
+) !default;
+
+// 1a) Negative spacers (for -m utilities)
+$negative-spacers: map.merge((auto: auto), $spacers) !default;
+
+// 2) Gutters
+$grid-gutter-width:   24px !default;
+$grid-gutter-width-y: 24px !default;
+
+// 3) Container
+$container-padding-x: 24px !default;
+$container-max-widths: (
+  sm:  540px,
+  md:  720px,
+  lg:  960px,
+  xl:  1140px,
+  xxl: 1320px
+) !default;
+
+// 4) Breakpoints
+$grid-breakpoints: (
+  xs:  0,
+  sm:  576px,
+  md:  768px,
+  lg:  992px,
+  xl:  1200px,
+  xxl: 1400px
+) !default;
+
+// 5) Font sizes
+$font-sizes: (
+  12:  12px,
+  14:  14px,
+  16:  16px,
+  18:  18px,
+  20:  20px,
+  22:  22px,
+  24:  24px,  
+  30:  30px,
+  32:  32px,
+  36:  36px,
+  40:  40px,
+  48:  48px,
+  64:  64px,
+  128: 128px
+) !default;
+
+// 6) Line-heights
+$line-heights: (
+  1:   1,
+  1-1: 1.1,
+  1-15: 1.15,
+  1-2: 1.2,
+  1-25: 1.25,
+  1-3: 1.3,
+  1-4: 1.4,
+  1-5: 1.5,
+  1-6: 1.6,
+  2:   2
+) !default;
+
+// 7) Letter-spacing (em units = % of font-size)
+$letter-spacings: (
+  0:  0,
+  1:  0.025em,
+  2:  0.05em,
+  3:  0.075em,
+  4:  0.1em,
+  5:  0.125em,
+  6:  0.15em,
+  7:  0.175em,
+  8:  0.2em
+) !default;
+
+// 8) Border widths
+$border-widths: (
+  0: 0,
+  1: 1px,
+  2: 2px,
+  4: 4px,
+  6: 6px,
+  8: 8px
+) !default;
+
+// 9) Border radii
+$border-radii: (
+  0:   0,
+  1:   1px,
+  2:   2px,
+  4:   4px,
+  6:   6px,
+  8:   8px,
+  12:  12px,
+  16:  16px,
+  24:  24px,
+  32:  32px
+) !default;
+
+// 9a) Font weights
+$font-weights: (
+  100: 100,
+  200: 200,
+  300: 300,
+  400: 400,
+  500: 500,
+  600: 600,
+  700: 700,
+  800: 800,
+  900: 900
+) !default;
+
+// -----------------------------------------------------------------------------
+// wv-colors & wv-gradients maps (updated to match new PDF palette)
+// -----------------------------------------------------------------------------
+$wv-colors: (
+  // Carbon
+  "c":       var(--wv-c),
+  "c_95":    var(--wv-c_95),
+  "c_90":    var(--wv-c_90),
+  "c_80":    var(--wv-c_80),
+  "c_70":    var(--wv-c_70),
+  "c_50":    var(--wv-c_50),
+  "c_20":    var(--wv-c_20),
+  "c_10":    var(--wv-c_10),
+  "c_5":     var(--wv-c_5),
+  "c_3":     var(--wv-c_3),
+
+  // Velvet (Exhibitors)
+  "v_dark":  var(--wv-v_dark),
+  "v":       var(--wv-v),
+  "v_80":    var(--wv-v_80),
+  "v_70":    var(--wv-v_70),
+  "v_50":    var(--wv-v_50),
+  "v_20":    var(--wv-v_20),
+  "v_10":    var(--wv-v_10),
+
+  // Edit
+  "e":       var(--wv-e),
+  "e_10":    var(--wv-e_10),
+
+  // Ultramarine (Upcoming Meetings)
+  "u":       var(--wv-u),
+  "u_85":    var(--wv-u_85),
+  "u_60":    var(--wv-u_60),
+  "u_40":    var(--wv-u_40),
+  "u_20":    var(--wv-u_20),
+
+  // Green (Confirmations)
+  "g":       var(--wv-g),
+  "g_30":    var(--wv-g_30),
+  "g_15":    var(--wv-g_15),
+
+  // Blue (Scheduled Meetings)
+  "b":       var(--wv-b),
+  "b_70":    var(--wv-b_70),
+  "b_50":    var(--wv-b_50),
+  "b_20":    var(--wv-b_20),
+  "b_10":    var(--wv-b_10),
+
+  // Yellow (Buyers)
+  "y":       var(--wv-y),
+  "y_50":    var(--wv-y_50),
+  "y_20":    var(--wv-y_20),
+  "y_10":    var(--wv-y_10),
+
+  // Terracotta (Buyers)
+  "t":       var(--wv-t),
+  "t_70":    var(--wv-t_70),
+
+  // Orange (Canceled Meetings)
+  "o":       var(--wv-o),
+  "o_70":    var(--wv-o_70),
+  "o_50":    var(--wv-o_50),
+  "o_20":    var(--wv-o_20),
+  "o_10":    var(--wv-o_10),
+
+  // Red (Visitors)
+  "r_dark":  var(--wv-r_dark),
+  "r":       var(--wv-r),
+  "r_70":    var(--wv-r_70),
+  "r_50":    var(--wv-r_50),
+  "r_30":    var(--wv-r_30),
+
+  // Hot (Alerts, Delete)
+  "h":       var(--wv-h),
+  "h_70":    var(--wv-h_70),
+  "h_50":    var(--wv-h_50),
+  "h_10":    var(--wv-h_10),
+
+  // White
+  "w":       var(--wv-w),
+
+  // Stand Colors (from page 2)
+  "9m2":        var(--wv-9m2),
+  "9m2_30":     var(--wv-9m2_30),
+  "24m2":       var(--wv-24m2),
+  "24m2_30":    var(--wv-24m2_30),
+  "12m2":       var(--wv-12m2),
+  "12m2_30":    var(--wv-12m2_30),
+  "49m2":       var(--wv-49m2),
+  "49m2_30":    var(--wv-49m2_30),
+  "custom":     var(--wv-custom),
+  "custom_30":  var(--wv-custom_30),
+
+  // Wine (Products)
+  "wine-white":     var(--wv-wine-white),
+  "wine-rose":      var(--wv-wine-rose),
+  "wine-orange":    var(--wv-wine-orange),
+  "wine-red":       var(--wv-wine-red),
+  "wine-sparkling": var(--wv-wine-sparkling),
+
+  // Spirits (Products)
+  "plum":    var(--wv-plum),
+  "quince":  var(--wv-quince),
+  "pear":    var(--wv-pear),
+  "grape":   var(--wv-grape),
+
+  // Wine (Masterclass)
+  "w_100":   var(--wv-w_100),
+  "w_80":    var(--wv-w_80),
+  "w_20":    var(--wv-w_20),
+
+  // Food (Masterclass)
+  "f_100":   var(--wv-f_100),
+  "f_80":    var(--wv-f_80),
+  "f_20":    var(--wv-f_20),
+
+  // Spirits (Masterclass)
+  "s_100":   var(--wv-s_100),
+  "s_80":    var(--wv-s_80),
+  "s_20":    var(--wv-s_20)
+) !default;
+
+$wv-gradients: (
+  "carbon-gradient-up":       var(--wv-carbon-gradient-up),
+  "carbon-gradient-down":     var(--wv-carbon-gradient-down),
+  "idle-day-gradient":        var(--wv-idle-day-gradient),
+  "visitor-gradient":         var(--wv-visitor-gradient),
+  "exhibitor-gradient-dark":  var(--wv-exhibitor-gradient-dark),
+  "exhibitor-gradient-light": var(--wv-exhibitor-gradient-light),
+  "buyer-gradient":           var(--wv-buyer-gradient),
+  "header-gradient":          var(--wv-header-gradient),
+  "wv-gradient":              var(--wv-wv-gradient)
+) !default;
+
+
+// -----------------------------------------------------------------------------
+// Generate utility classes
+// -----------------------------------------------------------------------------
+@each $key, $col in $wv-colors {
+  .wv-bg-#{$key} {
+    background-color: $col !important;
+  }
+  .wv-color-#{$key} {
+    color: $col !important;
+  }
+  .wv-bc-#{$key} {
+    border-color: $col !important;
+  }
+
+}
+
+@each $key, $grad in $wv-gradients {
+  .wv-bg-#{$key} {
+    background-image: $grad !important;
+  }
+}
+
+// 10) Merge all of your custom utility maps so Bootstrap generates:
+//     .fs-*, .ls-*, .lh-*, .bw-*, .br-*  (and their responsive variants)
+$utilities: map.merge(
+  $utilities,
+  (
+    "font-size": (
+      property: font-size,
+      class:    fs,
+      values:   $font-sizes
+    ),
+    "letter-spacing": (
+      property: letter-spacing,
+      class:    ls,
+      values:   $letter-spacings
+    ),
+    "line-height": (
+      property: line-height,
+      class:    lh,
+      values:   $line-heights
+    ),
+    "border-width": (
+      property: border-width,
+      class:    bw,
+      values:   $border-widths
+    ),
+    "border-radius": (
+      property: border-radius,
+      class:    br,
+      values:   $border-radii
+    ),
+    "font-weight": (
+      property: font-weight,
+      class: fw,
+      values: $font-weights
+    ),
+    "wv-bg": (
+      property: background-color,
+      class:    wv-bg,
+      values:   $wv-colors
+    ),
+    "wv-color": (
+      property: color,
+      class:    wv-color,
+      values:   $wv-colors
+    ),
+    "wv-bc": (
+      property: border-color,
+      class:    wv-bc,
+      values:   $wv-colors
+    ),
+    "wv-bg-gradient": (
+      property: background-image,
+      class:    wv-bg,
+      values:   $wv-gradients
+    )
+  )
+);

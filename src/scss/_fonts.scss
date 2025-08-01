@@ -1,0 +1,791 @@
+/* Normal (upright) variable font */
+@font-face {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('../../src/fonts/inter-tight/InterTight-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  /* Italic variable font */
+  @font-face {
+    font-family: 'Inter Tight';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('../../src/fonts/inter-tight/InterTight-Italic-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Wine-Vision';
+    src:  url('../../src/fonts/wv-icons/Wine-Vision.eot?tv0kz0');
+    src:  url('../../src/fonts/wv-icons/Wine-Vision.eot?tv0kz0#iefix') format('embedded-opentype'),
+      url('../../src/fonts/wv-icons/Wine-Vision.ttf?tv0kz0') format('truetype'),
+      url('../../src/fonts/wv-icons/Wine-Vision.woff?tv0kz0') format('woff'),
+      url('../../src/fonts/wv-icons/Wine-Vision.svg?tv0kz0#Wine-Vision') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+.wv {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Wine-Vision' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  
+.wv_asterix .path1:before {
+  content: "\e900";
+  color: rgb(60, 55, 73);
+}
+.wv_asterix .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_noprofile_s .path1:before {
+  content: "\e902";
+  color: rgb(60, 55, 73);
+}
+.wv_noprofile_s .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_noprofile_c .path1:before {
+  content: "\e904";
+  color: rgb(60, 55, 73);
+}
+.wv_noprofile_c .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_pending-f:before {
+  content: "\e906";
+}
+.wv_7 .path1:before {
+  content: "\e907";
+  color: rgb(60, 55, 73);
+}
+.wv_7 .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_14 .path1:before {
+  content: "\e909";
+  color: rgb(60, 55, 73);
+}
+.wv_14 .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_14 .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_70e-f:before {
+  content: "\e90c";
+}
+.wv_70e .path1:before {
+  content: "\e90d";
+  color: rgb(60, 55, 73);
+}
+.wv_70e .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_share-f:before {
+  content: "\e90f";
+}
+.wv_share .path1:before {
+  content: "\e910";
+  color: rgb(60, 55, 73);
+}
+.wv_share .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_saved-f:before {
+  content: "\e912";
+}
+.wv_saved-profile .path1:before {
+  content: "\e913";
+  color: rgb(60, 55, 73);
+}
+.wv_saved-profile .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_saved .path1:before {
+  content: "\e915";
+  color: rgb(60, 55, 73);
+}
+.wv_saved .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_about-form .path1:before {
+  content: "\e917";
+  color: rgb(60, 55, 73);
+}
+.wv_about-form .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_account-a:before {
+  content: "\e919";
+}
+.wv_account-i:before {
+  content: "\e91a";
+}
+.wv_account-o .path1:before {
+  content: "\e91b";
+  color: rgb(60, 55, 73);
+}
+.wv_account-o .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_img:before {
+  content: "\e91d";
+}
+.wv_linked .path1:before {
+  content: "\e91e";
+  color: rgb(60, 55, 73);
+}
+.wv_linked .path2:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_linked-f:before {
+  content: "\e920";
+}
+.wv_msg .path1:before {
+  content: "\e921";
+  color: rgb(60, 55, 73);
+}
+.wv_msg .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_msg-f:before {
+  content: "\e923";
+}
+.wv_msg-profile .path1:before {
+  content: "\e924";
+  color: rgb(60, 55, 73);
+}
+.wv_msg-profile .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked .path1:before {
+  content: "\e926";
+  color: rgb(60, 55, 73);
+}
+.wv_not-linked .path2:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked .path3:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked .path4:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked .path5:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked .path6:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked .path7:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked .path8:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked .path9:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_not-linked-f:before {
+  content: "\e92f";
+}
+.wv_point-50-f:before {
+  content: "\e930";
+}
+.wv_search-50-a:before {
+  content: "\e931";
+}
+.wv_search-50-i .path1:before {
+  content: "\e932";
+  color: rgb(60, 55, 73);
+}
+.wv_search-50-i .path2:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_search-60-a:before {
+  content: "\e934";
+}
+.wv_search-60-i .path1:before {
+  content: "\e935";
+  color: rgb(60, 55, 73);
+}
+.wv_search-60-i .path2:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_arrow-50-o:before {
+  content: "\e937";
+}
+.wv_arrow-70 .path1:before {
+  content: "\e938";
+  color: rgb(60, 55, 73);
+}
+.wv_arrow-70 .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_arrow-70-o:before {
+  content: "\e93a";
+}
+.wv_arrow-80 .path1:before {
+  content: "\e93b";
+  color: rgb(60, 55, 73);
+}
+.wv_arrow-80 .path2:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_calendar-app-a .path1:before {
+  content: "\e93d";
+  color: rgb(60, 55, 73);
+}
+.wv_calendar-app-a .path2:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_calendar-app-a .path3:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_calendar-app-a .path4:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_calendar-app-a .path5:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_calendar-app-i:before {
+  content: "\e942";
+}
+.wv_check-20-o:before {
+  content: "\e943";
+}
+.wv_check-50 .path1:before {
+  content: "\e944";
+  color: rgb(60, 55, 73);
+}
+.wv_check-50 .path2:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_check-70 .path1:before {
+  content: "\e946";
+  color: rgb(60, 55, 73);
+}
+.wv_check-70 .path2:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_check-70-o:before {
+  content: "\e948";
+}
+.wv_check-70-sq .path1:before {
+  content: "\e949";
+  color: rgb(60, 55, 73);
+}
+.wv_check-70-sq .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_check-70-sq-f:before {
+  content: "\e94b";
+}
+.wv_hide:before {
+  content: "\e94c";
+}
+.wv_point-40-o:before {
+  content: "\e94d";
+}
+.wv_point-50 .path1:before {
+  content: "\e94e";
+  color: rgb(60, 55, 73);
+}
+.wv_point-50 .path2:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_point-70 .path1:before {
+  content: "\e950";
+  color: rgb(60, 55, 73);
+}
+.wv_point-70 .path2:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_point-dd .path1:before {
+  content: "\e952";
+  color: rgb(60, 55, 73);
+}
+.wv_point-dd .path2:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_point-m35-f:before {
+  content: "\e954";
+}
+.wv_point-s35-f:before {
+  content: "\e955";
+}
+.wv_program-app-a .path1:before {
+  content: "\e956";
+  color: rgb(60, 55, 73);
+}
+.wv_program-app-a .path2:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_program-app-a .path3:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_program-app-a .path4:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_program-app-a .path5:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_program-app-i:before {
+  content: "\e95b";
+}
+.wv_show:before {
+  content: "\e95c";
+}
+.wv_tags-a .path1:before {
+  content: "\e95d";
+  color: rgb(60, 55, 73);
+}
+.wv_tags-a .path2:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_tags-i:before {
+  content: "\e95f";
+}
+.wv_x_50 .path1:before {
+  content: "\e960";
+  color: rgb(60, 55, 73);
+}
+.wv_x_50 .path2:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_x-40-f:before {
+  content: "\e962";
+}
+.wv_x-70 .path1:before {
+  content: "\e963";
+  color: rgb(60, 55, 73);
+}
+.wv_x-70 .path2:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_x-70-o:before {
+  content: "\e965";
+}
+.wv_x-70-sq .path1:before {
+  content: "\e966";
+  color: rgb(60, 55, 73);
+}
+.wv_x-70-sq .path2:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_x-70-sq-f:before {
+  content: "\e968";
+}
+.wv_add .path1:before {
+  content: "\e969";
+  color: rgb(60, 55, 73);
+}
+.wv_add .path2:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_agree .path1:before {
+  content: "\e96b";
+  color: rgb(60, 55, 73);
+}
+.wv_agree .path2:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_app-form .path1:before {
+  content: "\e96d";
+  color: rgb(60, 55, 73);
+}
+.wv_app-form .path2:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_arrow-50 .path1:before {
+  content: "\e96f";
+  color: rgb(60, 55, 73);
+}
+.wv_arrow-50 .path2:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_block:before {
+  content: "\e971";
+}
+.wv_burger .path1:before {
+  content: "\e972";
+  color: rgb(60, 55, 73);
+}
+.wv_burger .path2:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_calendar-dm .path1:before {
+  content: "\e974";
+  color: rgb(60, 55, 73);
+}
+.wv_calendar-dm .path2:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_calendar-dm .path3:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_co-ex .path1:before {
+  content: "\e977";
+  color: rgb(60, 55, 73);
+}
+.wv_co-ex .path2:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_external .path1:before {
+  content: "\e979";
+  color: rgb(60, 55, 73);
+}
+.wv_external .path2:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_fb .path1:before {
+  content: "\e97b";
+  color: rgb(60, 55, 73);
+}
+.wv_fb .path2:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_filters .path1:before {
+  content: "\e97d";
+  color: rgb(60, 55, 73);
+}
+.wv_filters .path2:before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_filters .path3:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_ig .path1:before {
+  content: "\e980";
+  color: rgb(60, 55, 73);
+}
+.wv_ig .path2:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_ldn .path1:before {
+  content: "\e982";
+  color: rgb(60, 55, 73);
+}
+.wv_ldn .path2:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_save .path1:before {
+  content: "\e984";
+  color: rgb(60, 55, 73);
+}
+.wv_save .path2:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_save .path3:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_trash .path1:before {
+  content: "\e987";
+  color: rgb(60, 55, 73);
+}
+.wv_trash .path2:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_tt .path1:before {
+  content: "\e989";
+  color: rgb(60, 55, 73);
+}
+.wv_tt .path2:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_viber .path1:before {
+  content: "\e98b";
+  color: rgb(60, 55, 73);
+}
+.wv_viber .path2:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_wdgt-date .path1:before {
+  content: "\e98d";
+  color: rgb(60, 55, 73);
+}
+.wv_wdgt-date .path2:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_wdgt-date .path3:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_wdgt-date .path4:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_wdgt-loc .path1:before {
+  content: "\e991";
+  color: rgb(60, 55, 73);
+}
+.wv_wdgt-loc .path2:before {
+  content: "\e992";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_wdgt-table .path1:before {
+  content: "\e993";
+  color: rgb(60, 55, 73);
+}
+.wv_wdgt-table .path2:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_wdgt-time .path1:before {
+  content: "\e995";
+  color: rgb(60, 55, 73);
+}
+.wv_wdgt-time .path2:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_whatsapp .path1:before {
+  content: "\e997";
+  color: rgb(60, 55, 73);
+}
+.wv_whatsapp .path2:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_yt .path1:before {
+  content: "\e999";
+  color: rgb(60, 55, 73);
+}
+.wv_yt .path2:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_alert .path1:before {
+  content: "\e99b";
+  color: rgb(60, 55, 73);
+}
+.wv_alert .path2:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_alert-f:before {
+  content: "\e99d";
+}
+.wv_announce .path1:before {
+  content: "\e99e";
+  color: rgb(60, 55, 73);
+}
+.wv_announce .path2:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_announce-f:before {
+  content: "\e9a0";
+}
+.wv_info .path1:before {
+  content: "\e9a1";
+  color: rgb(60, 55, 73);
+}
+.wv_info .path2:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_info-f:before {
+  content: "\e9a3";
+}
+.wv_mail .path1:before {
+  content: "\e9a4";
+  color: rgb(60, 55, 73);
+}
+.wv_mail .path2:before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_mail-f:before {
+  content: "\e9a6";
+}
+.wv_rate .path1:before {
+  content: "\e9a7";
+  color: rgb(60, 55, 73);
+}
+.wv_rate .path2:before {
+  content: "\e9a8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_rate-f:before {
+  content: "\e9a9";
+}
+.wv_request .path1:before {
+  content: "\e9aa";
+  color: rgb(60, 55, 73);
+}
+.wv_request .path2:before {
+  content: "\e9ab";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_request-f:before {
+  content: "\e9ac";
+}
+.wv_stand .path1:before {
+  content: "\e9ad";
+  color: rgb(60, 55, 73);
+}
+.wv_stand .path2:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.wv_stand-assign:before {
+  content: "\e9af";
+}

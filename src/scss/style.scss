@@ -1,0 +1,20 @@
+@use 'fonts';
+@use 'variables' as vars;
+
+// Bootstrap SCSS with custom variables
+@use 'bootstrap/scss/bootstrap' with (
+  $spacers: vars.$spacers,
+  $grid-breakpoints: vars.$grid-breakpoints,
+  $utilities: vars.$utilities
+);
+
+// Select2 styles
+@use 'select2/src/scss/core';
+
+// intl-tel-input styles (explicit import)
+@use '~intl-tel-input/build/css/intlTelInput';
+@use "~cropperjs/dist/cropper";
+@use '~swiper/css/bundle';
+
+@use 'auth';
+@use 'main';

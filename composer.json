@@ -1,0 +1,38 @@
+{
+  "name": "desymphony/theme",
+  "description": "A modern WordPress theme integrating ex-plugin code via PSR-4.",
+  "type": "wordpress-theme",
+  "authors": [
+    {
+      "name": "Dusan Stojanovic",
+      "role": "Developer",
+      "email": "dushan887@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Desymphony\\Theme\\": "inc/theme/",
+      "Desymphony\\Admin\\": "inc/admin/",
+      "Desymphony\\Admin\\Menu\\": "inc/admin/classes/menu/",
+      "Desymphony\\Admin\\Protection\\": "inc/admin/classes/protection/",
+      "Desymphony\\Admin\\Settings\\": "inc/admin/classes/settings/",
+      "Desymphony\\Admin\\Tables\\": "inc/admin/classes/tables/",
+
+      "Desymphony\\Auth\\Classes\\": "inc/auth/classes/",
+      "Desymphony\\Auth\\": "inc/auth/",
+
+      "Desymphony\\Woo\\": "inc/woocommerce/",
+
+      "Desymphony\\Public\\": "inc/public/",
+      "Desymphony\\Helpers\\": "inc/helpers/",
+      "Desymphony\\Dashboard\\": "inc/dashboard/",
+      "Desymphony\\Database\\": "inc/database/",
+      "Desymphony\\Favorites\\": "inc/favorites/",
+      "Desymphony\\Exhibitor\\": "inc/exhibitor/",
+      "Desymphony\\": "inc/"
+    }
+  }
+}

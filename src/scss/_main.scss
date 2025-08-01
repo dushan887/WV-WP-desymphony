@@ -1,0 +1,133 @@
+:root {
+    /* Carbon */
+    --wv-c:        rgb(11,5,28);     /* #0b051c */
+    --wv-c_95:     rgb(23,18,39);    /* #171227 */
+    --wv-c_90:     rgb(35,30,51);    /* #231e33 */
+    --wv-c_80:     rgb(60,55,73);    /* #3c3749 */
+    --wv-c_70:     rgb(84,80,96);    /* #545060 */
+    --wv-c_50:     rgb(133,130,142); /* #85828e */
+    --wv-c_20:     rgb(206,205,210); /* #cecdd2 */
+    --wv-c_10:     rgb(231,230,232); /* #e7e6e8 */
+    --wv-c_5:      rgb(243,243,244); /* #f3f3f4 */
+    --wv-c_3:      rgb(248,248,248); /* #f8f8f8 */
+
+    /* Velvet (Exhibitors) */
+    --wv-v_dark:   rgb(50,10,100);   /* #320a64 */
+    --wv-v:        rgb(110,15,215);  /* #6e0fd7 */
+    --wv-v_80:     rgb(139,63,223);  /* #8b3fdf */
+    --wv-v_70:     rgb(154,87,227);  /* #9a57e3 */
+    --wv-v_50:     rgb(183,135,235); /* #b787eb */
+    --wv-v_20:     rgb(226,207,247); /* #e2cff7 */
+    --wv-v_10:     rgb(241,231,251); /* #f1e7fb */
+
+    /* Edit */
+    --wv-e:        rgb(90,135,165);  /* #5a87a5 */
+    --wv-e_10:     rgb(239,243,246); /* #eff3f6 */
+
+    /* Ultramarine (Upcoming Meetings) */
+    --wv-u:        rgb(40,70,190);   /* #2846be */
+    --wv-u_85:     rgb(72,98,200);   /* #4862c8 */
+    --wv-u_60:     rgb(126,144,216); /* #7e90d8 */
+    --wv-u_40:     rgb(169,181,229); /* #a9b5e5 */
+    --wv-u_20:     rgb(212,218,242); /* #d4daf2 */
+
+    /* Green (Confirmations) */
+    --wv-g:        rgb(0,200,100);   /* #00c864 */
+    --wv-g_30:     rgb(179,239,209); /* #b3efd1 */
+    --wv-g_15:     rgb(217,247,232); /* #d9f7e8 */
+
+    /* Blue (Scheduled Meetings) */
+    --wv-b:        rgb(0,135,255);   /* #0087ff */
+    --wv-b_70:     rgb(77,171,255);  /* #4dabff */
+    --wv-b_50:     rgb(128,195,255); /* #80c3ff */
+    --wv-b_20:     rgb(204,231,255); /* #cce7ff */
+    --wv-b_10:     rgb(230,243,255); /* #e6f3ff */
+
+    /* Yellow (Buyers) */
+    --wv-y:        rgb(250,165,0);   /* #faa500 */
+    --wv-y_50:     rgb(253,210,128); /* #fdd280 */
+    --wv-y_20:     rgb(254,237,204); /* #feedcc */
+    --wv-y_10:     rgb(255,246,230); /* #fff6e6 */
+
+    /* Terracotta (Buyers) */
+    --wv-t:        rgb(160,100,70);  /* #a06446 */
+    --wv-t_70:     rgb(189,147,126); /* #bd937e */
+
+    /* Orange (Canceled Meetings) */
+    --wv-o:        rgb(220,80,25);   /* #dc5019 */
+    --wv-o_70:     rgb(231,133,94);  /* #e7855e */
+    --wv-o_50:     rgb(238,168,140); /* #eea88c */
+    --wv-o_20:     rgb(248,220,209); /* #f8dcd1 */
+    --wv-o_10:     rgb(252,238,232); /* #fceee8 */
+
+    /* Red (Visitors) */
+    --wv-r_dark:   rgb(130,0,40);    /* #820028 */
+    --wv-r:        rgb(235,0,55);    /* #eb0037 */
+    --wv-r_70:     rgb(241,77,115);  /* #f14d73 */
+    --wv-r_50:     rgb(245,128,155); /* #f5809b */
+    --wv-r_30:     rgb(249,179,195); /* #f9b3c3 */
+
+    /* Hot (Alerts, Delete) */
+    --wv-h:        rgb(255,20,40);   /* #ff1428 */
+    --wv-h_70:     rgb(255,91,105);  /* #ff5b69 */
+    --wv-h_50:     rgb(255,138,147); /* #ff8a93 */
+    --wv-h_10:     rgb(255,232,234); /* #ffe8ea */
+
+    /* White */
+    --wv-w:        rgb(255,255,255); /* #ffffff */
+
+    /* === Stands, Wine, Spirits, Masterclass (page 2) === */
+
+    /* Stand Colors */
+    --wv-9m2:      rgb(0,180,0);     /* #00b400 */
+    --wv-9m2_30:   rgb(179,233,179); /* #b3e9b3 */
+    --wv-24m2:     rgb(0,135,255);   /* #0087ff */
+    --wv-24m2_30:  rgb(179,219,255); /* #b3dbff */
+    --wv-12m2:     rgb(0,190,180);   /* #00beb4 */
+    --wv-12m2_30:  rgb(179,235,233); /* #b3ebe9 */
+    --wv-49m2:     rgb(0,50,240);    /* #0032f0 */
+    --wv-49m2_30:  rgb(179,194,251); /* #b3c2fb */
+    --wv-custom:   rgb(250,90,0);    /* #fa5a00 */
+    --wv-custom_30:rgb(253,205,179); /* #fdcdb3 */
+
+    /* Wine (Products) */
+    --wv-wine-white:     rgb(200,160,120); /* #c8a078 */
+    --wv-wine-rose:      rgb(255,140,170); /* #ff8caa */
+    --wv-wine-orange:    rgb(250,110,60);  /* #fa6e3c */
+    --wv-wine-red:       rgb(220,20,60);   /* #dc143c */
+    --wv-wine-sparkling: rgb(145,150,170); /* #9196aa */
+
+    /* Spirits (Products) */
+    --wv-plum:    rgb(110,85,200);   /* #6e55c8 */
+    --wv-quince:  rgb(200,150,20);   /* #c89614 */
+    --wv-pear:    rgb(180,180,90);   /* #b4b45a */
+    --wv-grape:   rgb(140,190,140);  /* #8cbe8c */
+
+    /* Wine (Masterclass) */
+    --wv-w_100:   rgb(180,110,40);   /* #b46e28 */
+    --wv-w_80:    rgb(195,139,83);   /* #c38b53 */
+    --wv-w_20:    rgb(240,226,212);  /* #f0e2d4 */
+
+    /* Food (Masterclass) */
+    --wv-f_100:   rgb(0,160,70);     /* #00a046 */
+    --wv-f_80:    rgb(51,179,107);   /* #33b36b */
+    --wv-f_20:    rgb(204,236,218);  /* #ccecda */
+
+    /* Spirits (Masterclass) */
+    --wv-s_100:   rgb(215,65,40);    /* #d74128 */
+    --wv-s_80:    rgb(223,103,83);   /* #df6753 */
+    --wv-s_20:    rgb(247,217,212);    /* #f7d9d4 */ 
+
+    /* Gradients */
+    --wv-carbon-gradient-up: linear-gradient(rgb(11,5,28), rgb(35,30,51));          /* #0b051c to #231e33 */
+    --wv-carbon-gradient-down: linear-gradient(rgb(35,30,51), rgb(11,5,28));        /* #231e33 to #0b051c */
+    --wv-idle-day-gradient: linear-gradient(rgb(60,55,73), rgb(35,30,51));          /* #3c3749 to #231e33 */
+    --wv-visitor-gradient: linear-gradient(rgb(130,0,40), rgb(235,0,55));           /* #820028 to #eb0037 */
+    --wv-exhibitor-gradient-dark: linear-gradient(rgb(50,10,100), rgb(110,15,215)); /* #320a64 to #6e0fd7 */
+    --wv-exhibitor-gradient-light: linear-gradient(rgb(110,15,215), rgb(154,87,227)); /* #6e0fd7 to #9a57e3 */
+    --wv-buyer-gradient: linear-gradient(rgb(160,100,70), rgb(250,165,0));          /* #a06446 to #faa500 */
+    --wv-header-gradient: linear-gradient(rgb(255,255,255), rgb(206,205,210));      /* #ffffff to #cecdd2 */
+    --wv-wv-gradient: linear-gradient(rgb(250,165,0), rgb(235,0,55), rgb(110,15,215)); /* #faa500, #eb0037, #6e0fd7 */
+
+    --wv-font-base: 'Inter Tight', sans-serif;
+}
